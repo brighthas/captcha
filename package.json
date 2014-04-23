@@ -1,0 +1,32 @@
+{
+  "name": "captcha",
+  "version": "0.0.0",
+  "description": "captcha =======",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brighthas/captcha"
+  },
+  "dependencies": {
+    "png-word": "0.0.7",
+    "random-word": "git://github.com/brighthas/random-word",
+    "express": "^4.0.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brighthas/captcha/issues"
+  },
+  "homepage": "https://github.com/brighthas/captcha",
+  "devDependencies": {
+    "express": "^4.0.0",
+    "should": "^3.3.1",
+    "express-session": "^1.0.3",
+    "supertest": "^0.11.0",
+    "cookie-parser": "^1.0.1",
+    "body-parser": "^1.0.2"
+  }
+}
